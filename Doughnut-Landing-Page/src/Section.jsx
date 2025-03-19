@@ -1,3 +1,4 @@
+import { BsSend } from "react-icons/bs";
 export default function Section(){
 
     return(
@@ -58,13 +59,13 @@ export default function Section(){
 
                 <section className="my-10">
                     <h2 className="text-xl font-bold text-center">Lorem Ipsum</h2>
-                    <div className="grid grid-cols-3 grid-rows-2 gap-0 w-[80%] mx-auto my-6">
-                        <img  src="src\assets\matteD.jpeg" alt="1" className="h-90 w-90 object-cover mb-1 " />
-                        <img src="src\assets\oeroD.jpeg" alt="2" className="h-90 w-90 object-cover"/>
-                        <img src="src\assets\Sprinkles.jpeg" alt="3" className="h-90 w-90 object-cover"/>
-                        <img src="src\assets\sugar.jpeg" alt="4" className="h-90 w-90 object-cover"/>
-                        <img src="src\assets\pink.jpg" alt="5" className="h-90 w-90 object-cover"/>
-                        <img src="src\assets\strawberry.jpg" alt="6" className="h-90 w-90 object-cover"/>
+                    <div className="grid grid-cols-3 grid-rows-2 gap-1 w-[80%] mx-auto my-6">
+                        <img  src="src\assets\matteD.jpeg" alt="1" className="h-90 w-full object-cover mb-1 " />
+                        <img src="src\assets\oeroD.jpeg" alt="2" className="h-90 w-full object-cover"/>
+                        <img src="src\assets\Sprinkles.jpeg" alt="3" className="h-90 w-full object-cover"/>
+                        <img src="src\assets\sugar.jpeg" alt="4" className="h-90 w-full object-cover"/>
+                        <img src="src\assets\pink.jpg" alt="5" className="h-90 w-full object-cover"/>
+                        <img src="src\assets\strawberry.jpg" alt="6" className="h-90 w-full object-cover"/>
                     </div>
                 </section>
 
@@ -73,10 +74,13 @@ export default function Section(){
                         <h4 className="text-center font-bold text-2xl my-2.5">JOIN OUR MAILING LIST</h4>
                         <p className="text-center w-[40%] mx-auto mb-10 text-gray-550">Assumenda cupiditate deleniti recusandae voluptatum, ipsam a ipsum dolorem magnam dicta optio.</p>
 
+
+
                         <div className="flex flex-row justify-center items-center">
-                            <input type="email" placeholder='Email Address' className="bg-white border-1 border-gray-350 px-8 py-2" />
-                            <button className="bg-gray-600 text-black cursor-pointer">
-                                <img src="src\assets\telegram.png" alt="send" className="h-10.5 w-10 object-fill py-2 px-2" />
+                            <input type="email" placeholder='Email Address' className="bg-white border-1 border-gray-350 px-8 py-2" />                            
+                            <button className="bg-black cursor-pointer py-[9px] px-2">
+                                <BsSend  className="text-2xl text-white object-fill "/>
+
                             </button>
                         </div>
                     </div>
