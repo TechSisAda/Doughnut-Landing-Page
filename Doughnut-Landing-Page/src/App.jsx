@@ -1,21 +1,24 @@
-import Header from './Header'
-import Section from './Section'
-// import Footer from './footer'
-import './index.css'
+import Header from "./Header";
+import Section from "./Section";
+import Footer from "./Footer";
+import "./index.css";
 
 function App() {
-
   return (
     <>
+      <div>
+        <Header />
+      </div>
 
-      <Header/>
-      <Section/>
-      {/* <Footer/>  */}
-      
+      <div>
+        <Section />
+      </div>
 
-    
+      <div>
+        <Footer />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
